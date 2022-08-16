@@ -1,0 +1,153 @@
+{"intents":[
+        {"tag": "incoming callback",
+        "patterns": ["Hi, you called me","I recieved a call from this number", "Hi who is this","why did you call me?"],
+        "responses": ["This is future connect training my colleague must have called you", "let me check who has called you"],
+        "context_set": ""
+        },
+        {"tag": "incoming new call",
+        "patterns": ["Hi I would like to inquire about your accounting courses","Hi I want to make a career in accounting", "Hi do you teach accounting?","Can you please tell me about your courses"],
+        "responses": ["Yes sure I can definately help you out with, may I have your name please", "So you are interested in our accounting courses", "Do you have any previous accounting qualification"],
+        "context_set": ""
+        },
+        {"tag": "course1",
+        "patterns": ["Hi, I am calling in regards to one of your courses, if its possible to get some information practical accountants training"],
+        "responses": ["yes I can help you with that what kind of courses are you looking for, are you calling from london or outside of london?"],
+        "context_set": ""
+        },
+        {"tag": "AACI",
+        "patterns": ["I am looking to get practical experience in accountancy, courses like accountants assistant jobs, training courses probably"],
+        "responses": ["Under practical accountancy training we provide different levels of training like bookeeping, bookkeeping and payroll, accounts assistants, final accounts, management accounts, self assessment and corporation tax. Before moving into the details of accounts assistant training, I would like to know more about your educational background and work experience."],
+        "context_set": ""
+        },
+        {"tag": "aatl4noexp",
+        "patterns": ["I am finishing A A T level 4, but I donot have much experience and I am looking to gain some practical Training"],
+        "responses": ["When you talk about level 4 there are 6 subjects, and 2 optional. How many have you completed?"],
+        "context_set": ""
+        },
+        {"tag": "aatl4noexp1",
+        "patterns": ["I am about to take the exam now, have completed synopsis"],
+        "responses": ["After that are you aiming to go for M A A T license?"],
+        "context_set": ""
+        },
+        {"tag": "aatl4noexp2",
+        "patterns": ["I am not sure, either way I will go for aat license or c I m a or a c c a"],
+        "responses": ["If you would like to go for M A A T license, we are an M A A T provider and college in ourself as well, so in order to get your licnese you","With the experience you have you should go for Final Accounts and management accounts training. There is no point of goin for accounts assistant training"],
+        "context_set": ""
+        },
+        {"tag": "aatl4noexp3",
+        "patterns": ["I need practical experience in order to get my licnese and the the moment its hard to find any work in this condition is difficult"],
+        "responses": ["If you are going for accounts assistant course, you are not going to fulfill that condition. You need to go for management accounts and final accounts training where you will be covering all your concepts of managements accounts, budgeting, forecasting, financial statements, and accounting systems and also business tax and personal tax. Let me explain you, I have understood your situation completely. dont worry about it, we are a certified company where we can help you out with all your documents and your P E R as well. We do that for every person who completes their A C C A and A A T. we can help you out with your work experience with our accountacny practice. With the training you will do with us you will also get your C P D certification. Same C P D certification you will show for P E R. when you take accounting training with us"],
+        "context_set": ""
+        },
+        {"tag": "aatl4noexp3",
+        "patterns": ["my main point was I want to go for accounts assistant training because I need to bookkeeping training"],
+        "responses": ["Any training you choose, it will teach you the basics, as if you don’t know how to do V A T how will you do trial balance? If you know bookeeping, you can do payroll. If you know bookkeeping and payroll, you can do accounts assistant."],
+        "context_set": ""
+        },
+        {"tag": "aatl4noexp1",
+        "patterns": ["I am about to take the exam now, have completed synopsis"],
+        "responses": ["After that are you aiming to go for M A A T license?"],
+        "context_set": ""
+        },
+        {"tag": "htt",
+        "patterns": ["can you tell me more about the training?","how are you going to train me?"],
+        "responses": ["the training is going to happen one on one. We are certified charted accountants and we offer training to companies around u k. and we are going to provide you with real client documents. Using those real clients documents we are going to teach you all the accounting concepts. an accountant is going to sit with you and is going to give you all the knowledge of accounting concepts. at the same time we will be giving you knowledge of softwares like sage, quickbooks, xero and advanced excel. When you move to higher level you will be learning Sage accounts protection software, tax filer and different softwares asd well. all these softwares will be taught on a step by step process"],
+        "context_set": ""
+        },
+        {"tag": "AACtt",
+        "patterns": ["how long is accounts assistant course"],
+        "responses": ["if you go for accounts assistant course, it will take you approximately 350 to 400 hours or 4 to 5 months of time depending on your pace to complete. We are flexible with times as well, we are open 6 days a week, Monday to Saturday. Each day from 10 A M to 5 P M. where you can come all the 6 days to complete the training"],
+        "context_set": ""
+        },
+        {"tag": "htt1",
+        "patterns": ["if I want to come any day I can come for the training?", "if I want to come every day?"],
+        "responses": ["You can come for training between 10 A M to 5 P M, between Monday to Saturday. Once you are enrolled with us, we will give you a time table to book your own timings as per your availability."],
+        "context_set": ""
+        },
+        {"tag": "cl",
+        "patterns": ["I am calling from london"],
+        "responses": ["Which part of london are you calling from?"],
+        "context_set": ""
+        },
+        {"tag": "cl1",
+        "patterns": ["I am calling from north east london"],
+        "responses": ["I see, our closest office would be Finchley Central Office."],
+        "context_set": ""
+        },
+        {"tag": "cl2",
+        "patterns": ["I am calling from north london"],
+        "responses": ["I see, our closest office would be Finchley Central Office."],
+        "context_set": ""
+        },
+        {"tag": "cl3",
+        "patterns": ["I am calling from north london"],
+        "responses": ["I see, our closest office would be Finchley Central Office."],
+        "context_set": ""
+        },
+        {"tag": "cl4",
+        "patterns": ["I am calling from north west london"],
+        "responses": ["I see, our closest office would be Harrow Office."],
+        "context_set": ""
+        },
+        {"tag": "cl5",
+        "patterns": ["I am calling from west london"],
+        "responses": ["I see, our closest office would be Harrow or Hounslow Office."],
+        "context_set": ""
+        },
+        {"tag": "cl6",
+        "patterns": ["I am calling from south london"],
+        "responses": ["I see, our closest office would be Mile End or Hounslow Office."],
+        "context_set": ""
+        },
+        {"tag": "cl7",
+        "patterns": ["I am calling from south west london"],
+        "responses": ["I see, our closest office would be Hounslow Office."],
+        "context_set": ""
+        },
+        {"tag": "cl8",
+        "patterns": ["I am calling from south east london"],
+        "responses": ["I see, our closest office would be Mile End Office."],
+        "context_set": ""
+        },
+        {"tag": "cl9",
+        "patterns": ["are you in north london?"],
+        "responses": ["Yes, we have an office in Finchley Central."],
+        "context_set": ""
+        },
+        {"tag": "cl10",
+        "patterns": ["are you in east london?"],
+        "responses": ["Yes, we have an office in Mile End."],
+        "context_set": ""
+        },
+        {"tag": "cl11",
+        "patterns": ["are you in west london?"],
+        "responses": ["Yes, we have an office in Harrow, Harrow on the hill tube station and Hounslow"],
+        "context_set": ""
+        },
+        {"tag": "cl12",
+        "patterns": ["are you in south london?"],
+        "responses": ["Our closest office to in south london would be either Hounslow or East London. However depending on your location, North Finchley or Harrow on the Hill can be close as well."],
+        "context_set": ""
+        },
+        {"tag": "cl13",
+        "patterns": ["are you in north east london?"],
+        "responses": ["Our closest office from north east london would be at Finchley Central or Mile End"],
+        "context_set": ""
+        },
+        {"tag": "cl14",
+        "patterns": ["are you in north West london?"],
+        "responses": ["Yes, one of our office is located in North West London, at Harrow on the Hill tube station"],
+        "context_set": ""
+        },
+        {"tag": "cl15",
+        "patterns": ["are you in south West london?"],
+        "responses": ["Yes, our closest office in south west london is in Hounslow"],
+        "context_set": ""
+        },
+        {"tag": "cl16",
+        "patterns": ["are you in south east london?"],
+        "responses": ["Our closest office would be in Mile End, near Mile End Station"],
+        "context_set": ""
+        }
+    ]
+}
